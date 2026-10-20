@@ -1,0 +1,8 @@
+{
+  "name": "drupal-guard",
+  "version": "0.1.0",
+  "description": "Asks for confirmation before destructive commands (site install, database drops, entity deletes, rm -rf...).",
+  "author": {
+    "name": "o0Charly0o"
+  }
+}

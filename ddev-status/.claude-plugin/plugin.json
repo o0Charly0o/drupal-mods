@@ -1,0 +1,8 @@
+{
+  "name": "ddev-status",
+  "version": "0.1.0",
+  "description": "Status line with git branch and pending changes, DDEV state and OpenSpec progress.",
+  "author": {
+    "name": "o0Charly0o"
+  }
+}

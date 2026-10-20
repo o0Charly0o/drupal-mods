@@ -1,0 +1,8 @@
+{
+  "name": "drupal-phpcs",
+  "version": "0.1.0",
+  "description": "Runs Drupal coding standards (phpcs) on custom module files after each edit and tells Claude what to fix.",
+  "author": {
+    "name": "o0Charly0o"
+  }
+}

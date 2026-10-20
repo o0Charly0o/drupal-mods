@@ -1,0 +1,10 @@
+{
+  "name": "drupal-mods",
+  "owner": { "name": "o0Charly0o" },
+  "description": "Claude Code mods for Drupal + DDEV projects.",
+  "plugins": [
+    { "name": "drupal-guard", "source": "./drupal-guard", "description": "Asks for confirmation before destructive commands." },
+    { "name": "drupal-phpcs", "source": "./drupal-phpcs", "description": "Runs phpcs on edited custom module files and reports problems." },
+    { "name": "ddev-status", "source": "./ddev-status", "description": "Status line: git, DDEV and OpenSpec progress." }
+  ]
+}
