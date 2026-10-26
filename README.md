@@ -15,11 +15,11 @@ Tras editar o crear un fichero de un módulo custom (`.php`, `.module`, `.instal
 ese fichero y añade el informe al contexto para que Claude lo corrija en el mismo turno.
 
 Por defecto busca los módulos en `web/modules/custom/`. Si el proyecto usa otra raíz
-(p. ej. `docroot/`), fija la variable de entorno `DRUPAL_WEBROOT`:
+(p. ej. `docroot/`), fija la variable de entorno `DRUPAL_WEBROOT` en el `env` del
+`.claude/settings.json` de ese proyecto (o en el entorno desde el que arrancas `claude`):
 
-```bash
-claude mcp add ... # no aplica aquí; para plugins usa:
-claude plugin install drupal-phpcs --marketplace o0Charly0o/drupal-mods -s user -e DRUPAL_WEBROOT=docroot
+```json
+{ "env": { "DRUPAL_WEBROOT": "docroot" } }
 ```
 
 Si DDEV no está levantado o `phpcs` no existe, el hook nunca bloquea la edición.
